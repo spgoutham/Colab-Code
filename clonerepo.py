@@ -119,7 +119,7 @@ def run_script():
         # Clone the latest code from the Mangio621/Mangio-RVC-Fork repository to a temporary location
         run_cmd(f"git clone https://github.com/Mangio621/Mangio-RVC-Fork.git {temp_repo_path}")
         os.chdir(temp_repo_path)
-        run_cmd("wget https://github.com/777gt/EasyGUI-RVC-Fork/raw/main/EasierGUI.py")
+        run_cmd("wget https://github.com/spgoutham/Easy-GUI/raw/main/EasyGUI")
 
         # Edit the file here, before copying
         edit_file(f"{temp_repo_path}/infer-web.py")
